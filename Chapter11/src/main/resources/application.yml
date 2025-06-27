@@ -1,0 +1,7 @@
+springdoc:
+  api-docs:
+    enabled: true # 启用API文档端点
+    path: /v3/api-docs # JSON格式接口地址
+  swagger-ui:
+    enabled: true # 启用Web UI
+    path: /swagger-ui.html # 自定义访问路径
