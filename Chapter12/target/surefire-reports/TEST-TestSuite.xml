@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="5.444" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\AutoTestCode\AutoTest\Chapter12\target\test-classes;E:\AutoTestCode\AutoTest\Chapter12\target\classes;D:\Maven\maven_repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\Maven\maven_repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;D:\Maven\maven_repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\Maven\maven_repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;D:\Maven\maven_repository\org\json\json\20170516\json-20170516.jar;D:\Maven\maven_repository\org\mybatis\mybatis\3.5.9\mybatis-3.5.9.jar;D:\Maven\maven_repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;D:\Maven\maven_repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;D:\Maven\maven_repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\Maven\maven_repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\Maven\maven_repository\org\xerial\sqlite-jdbc\3.49.1.0\sqlite-jdbc-3.49.1.0.jar;D:\Maven\maven_repository\org\freemarker\freemarker\2.3.34\freemarker-2.3.34.jar;D:\Maven\maven_repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;D:\Maven\maven_repository\org\mongodb\bson\5.4.0\bson-5.4.0.jar;D:\Maven\maven_repository\org\mongodb\mongodb-driver-core\5.4.0\mongodb-driver-core-5.4.0.jar;D:\Maven\maven_repository\org\mongodb\bson-record-codec\5.4.0\bson-record-codec-5.4.0.jar;D:\Maven\maven_repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\Maven\maven_repository\com\google\guava\guava\20.0\guava-20.0.jar;D:\Maven\maven_repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\Maven\maven_repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;D:\Maven\maven_repository\org\testng\testng\7.11.0\testng-7.11.0.jar;D:\Maven\maven_repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;D:\Maven\maven_repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;D:\Maven\maven_repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;D:\Maven\maven_repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;D:\Maven\maven_repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire718866406112738593\surefirebooter-20250627131758309_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire718866406112738593 2025-06-27T13-17-57_924-jvmRun1 surefire-20250627131758309_1tmp surefire_0-20250627131758309_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\AutoTestCode\AutoTest\Chapter12\target\test-classes;E:\AutoTestCode\AutoTest\Chapter12\target\classes;D:\Maven\maven_repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\Maven\maven_repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;D:\Maven\maven_repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\Maven\maven_repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;D:\Maven\maven_repository\org\json\json\20170516\json-20170516.jar;D:\Maven\maven_repository\org\mybatis\mybatis\3.5.9\mybatis-3.5.9.jar;D:\Maven\maven_repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;D:\Maven\maven_repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;D:\Maven\maven_repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\Maven\maven_repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\Maven\maven_repository\org\xerial\sqlite-jdbc\3.49.1.0\sqlite-jdbc-3.49.1.0.jar;D:\Maven\maven_repository\org\freemarker\freemarker\2.3.34\freemarker-2.3.34.jar;D:\Maven\maven_repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;D:\Maven\maven_repository\org\mongodb\bson\5.4.0\bson-5.4.0.jar;D:\Maven\maven_repository\org\mongodb\mongodb-driver-core\5.4.0\mongodb-driver-core-5.4.0.jar;D:\Maven\maven_repository\org\mongodb\bson-record-codec\5.4.0\bson-record-codec-5.4.0.jar;D:\Maven\maven_repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\Maven\maven_repository\com\google\guava\guava\20.0\guava-20.0.jar;D:\Maven\maven_repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\Maven\maven_repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;D:\Maven\maven_repository\org\testng\testng\7.11.0\testng-7.11.0.jar;D:\Maven\maven_repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;D:\Maven\maven_repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;D:\Maven\maven_repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;D:\Maven\maven_repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;D:\Maven\maven_repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\AutoTestCode\AutoTest\Chapter12"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire718866406112738593\surefirebooter-20250627131758309_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Maven\maven_repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Administrator\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="E:\AutoTestCode\AutoTest\Chapter12"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\vmware\xshell\xshell_release\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Maven\apache-maven-3.8.8\bin;D:\vmware\xshell\xshell_release2\;D:\nodeJS\nodeJSRelease\;D:\Jmeter\apache-jmeter-5.0\apache-jmeter-5.0\lib\ext\ApacheJMeter_core.jar;D:\Jmeter\apache-jmeter-5.0\apache-jmeter-5.0\lib\jorphan.jar;D:\Git\gitRelease\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python35\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\visual studio\visual studio code release\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="loginTrue" classname="com.course.cases.LoginTest" time="1.951">
+    <system-out><![CDATA[{id:1,userName:zhangsan,password:123456,expected:true}
+http://localhost:8888/v1/login
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="loginFalse" classname="com.course.cases.LoginTest" time="0.073">
+    <system-out><![CDATA[{id:2,userName:zhangsaner,password:123,expected:false}
+http://localhost:8888/v1/login
+]]></system-out>
+  </testcase>
+  <testcase name="addUser" classname="com.course.cases.AddUserTest" time="0.361">
+    <system-out><![CDATA[addUserCase：{id:1,userName:zhao9,password:zhaozhao,sex:0,age:35,permission:1,isDelete:0,expected:true}
+http://localhost:8888/v1/addUser
+服务器获得的响应为true
+user的内容为：
+{id:31,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:0}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserInfo" classname="com.course.cases.GetUserInfoTest" time="0.26">
+    <system-out><![CDATA[{id:1,userId:1,expected:getUserInfo,}
+http://localhost:8888/v1/getUserInfo
+result的值为：
+{"id":1,"userName":"zhangsan","password":"123456","age":20,"sex":0,"permission":0,"isDelete":0}
+实际获得的响应体为{"password":"123456","isDelete":0,"sex":0,"permission":0,"id":1,"userName":"zhangsan","age":20}
+user自己转换的json为{"password":123456,"isDelete":0,"sex":0,"permission":0,"id":1,"userName":"zhangsan","age":20}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserList" classname="com.course.cases.GetUserListTest" time="0.329">
+    <system-out><![CDATA[{id:1,userName:null,age:0,sex:0,expected:getUserList}
+获取的user：{id:1,userName:zhangsan,password:123456,age:20,sex:0,permission:0,isDelete:0}
+获取的user：{id:2,userName:lisi,password:123456,age:25,sex:1,permission:1,isDelete:0}
+获取的user：{id:3,userName:wangwu,password:123456,age:30,sex:0,permission:1,isDelete:0}
+获取的user：{id:4,userName:zhaoliu,password:123456,age:40,sex:1,permission:1,isDelete:0}
+获取的user：{id:5,userName:zhang1,password:123,age:20,sex:0,permission:0,isDelete:0}
+获取的user：{id:6,userName:zhao2,password:wqer,age:30,sex:1,permission:1,isDelete:0}
+获取的user：{id:7,userName:li3,password:sdffa,age:50,sex:1,permission:0,isDelete:0}
+获取的user：{id:8,userName:wu5,password:qazedx,age:40,sex:1,permission:0,isDelete:0}
+获取的user：{id:31,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:0}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserInfo" classname="com.course.cases.UpdateUserInfoTest" time="0.113">
+    <system-out><![CDATA[{id:1,userId:2,userName:hahahaha,sex:0,age:0,permission:0,isDelete:0,expected:getUpdateUserInfo}
+result的值为：
+1
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser" classname="com.course.cases.UpdateUserInfoTest" time="0.258">
+    <system-out><![CDATA[{id:2,userId:8,userName:null,sex:0,age:0,permission:0,isDelete:1,expected:getUpdateUserInfo}
+http://localhost:8888/v1/updateUserInfo
+]]></system-out>
+  </testcase>
+</testsuite>

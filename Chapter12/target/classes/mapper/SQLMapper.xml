@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.model">
+    <select id="loginCase" parameterType="Integer" resultType="com.course.model.LoginCase">
+        <!--获取登录接口case -->
+        select * from loginCase where id = #{id};
+    </select>
+    <select id="addUserCase" parameterType="Integer" resultType="com.course.model.AddUserCase">
+        <!--添加用户接口case-->
+        select * from addUserCase where id = #{id}
+    </select>
+    <select id="getUserInfoCase" parameterType="Integer" resultType="com.course.model.GetUserInfoCase">
+        <!--获取用户信息接口case-->
+        select * from getUserInfoCase where id = #{id}
+    </select>
+    <select id="getUserListCase" parameterType="Integer" resultType="com.course.model.GetUserListCase">
+        <!--获取用户列表接口case-->
+        select * from getUserListCase where id = #{id}
+    </select>
+    <select id="updateUserInfoCase" parameterType="Integer" resultType="com.course.model.UpdateUserInfoCase">
+        <!--更新用户信息接口case-->
+        select * from updateUserInfoCase where id = #{id}
+    </select>
+    <!--补充预期结果的sql语句-->
+    <!--获取用户信息-->
+    <select id="getUserInfo" parameterType="com.course.model.GetUserInfoCase" resultType="com.course.model.User">
+        select id,userName,password,age,sex,permission,isDelete from user where id = #{userId};
+    </select>
+    <!--获取用户列表-->
+    <select id="getUserList" parameterType="com.course.model.GetUserListCase" resultType="com.course.model.User">
+        select * from user
+        <trim prefix="WHERE" prefixOverrides="AND ">
+            <if test="userName != null and userName != ''">
+                AND userName = #{userName}
+            </if>
+            <if test="age != null and age != ''">
+                AND age = #{age}
+            </if>
+            <if test="sex != null and sex != ''">
+                AND sex = #{sex}
+            </if>
+        </trim>
+        ;
+    </select>
+    <!--获取更新之后的数据-->
+    <select id="getUpdateUserInfo" parameterType="com.course.model.UpdateUserInfoCase" resultType="com.course.model.User">
+        select * from user
+        <trim prefix="WHERE" prefixOverrides="AND ">
+            <if test="userName != '' and userName != null">
+                AND userName = #{userName}
+            </if>
+            <if test="sex != '' and sex != null">
+                AND sex = #{sex}
+            </if>
+            <if test="age != '' and age != null">
+                AND age = #{age}
+            </if>
+            <if test="permission != '' and permission != null">
+                AND permission = #{permission}
+            </if>
+            <if test="isDelete != '' and isDelete != null">
+                AND isDelete = #{isDelete}
+            </if>
+            AND id = #{userId}
+        </trim>
+    </select>
+    <!--新增用户后查询新增的用户-->
+    <select id="addUser" parameterType="com.course.model.AddUserCase" resultType="com.course.model.User">
+        select * from user where userName = #{userName}
+        and password = #{password}
+        and sex = #{sex}
+        and age = #{age}
+        and permission = #{permission}
+        and isDelete = #{isDelete};
+    </select>
+</mapper>

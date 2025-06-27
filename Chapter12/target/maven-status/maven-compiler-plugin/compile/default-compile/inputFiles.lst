@@ -1,0 +1,17 @@
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\cases\AddUserTest.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\cases\GetUserInfoTest.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\cases\GetUserListTest.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\cases\LoginTest.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\cases\UpdateUserInfoTest.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\config\ExtentReportListener.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\config\TestConfig.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\model\AddUserCase.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\model\GetUserInfoCase.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\model\GetUserListCase.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\model\InterfaceName.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\model\LoginCase.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\model\UpdateUserInfoCase.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\model\User.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\utils\ConfigFile.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\utils\DatabaseUtil.java
+E:\AutoTestCode\AutoTest\Chapter12\src\main\java\com\course\utils\JsonAssertUtils.java

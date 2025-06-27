@@ -1,0 +1,17 @@
+com\course\cases\AddUserTest.class
+com\course\cases\GetUserInfoTest.class
+com\course\utils\ConfigFile.class
+com\course\model\GetUserListCase.class
+com\course\model\InterfaceName.class
+com\course\utils\JsonAssertUtils.class
+com\course\cases\LoginTest.class
+com\course\utils\DatabaseUtil.class
+com\course\cases\UpdateUserInfoTest.class
+com\course\cases\GetUserListTest.class
+com\course\config\TestConfig.class
+com\course\model\GetUserInfoCase.class
+com\course\model\UpdateUserInfoCase.class
+com\course\model\LoginCase.class
+com\course\config\ExtentReportListener.class
+com\course\model\AddUserCase.class
+com\course\model\User.class
