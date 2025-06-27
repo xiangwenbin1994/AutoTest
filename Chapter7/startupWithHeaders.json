@@ -1,0 +1,27 @@
+[
+  {
+    "description": "这是一个模拟有headers的请求",
+    "request": {
+      "uri": "/demo/post/with/headers",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json; charSet=utf-8"
+      },
+      "json": {
+        "name": "wanglaosi",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "wanglaosi": "success",
+        "status": "1",
+        "respmgs": "成功返回一个返回信息"
+      },
+      "headers": {
+        "Content-Type": "application/json; charSet=utf-8"
+      }
+    }
+  }
+]

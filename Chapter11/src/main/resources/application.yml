@@ -1,0 +1,24 @@
+springdoc:
+  api-docs:
+    enabled: true # 启用API文档端点
+    path: /v3/api-docs # JSON格式接口地址
+  swagger-ui:
+    enabled: true # 启用Web UI
+    path: /swagger-ui.html # 自定义访问路径
+server:
+  port: 8888
+logging:
+  file:
+    path: /logs/mylog.log
+spring:
+  application:
+    name: myTest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: admin
+    password: 123456
+    url: jdbc:mysql://localhost:3306/course
+mybatis:
+    type-aliases-package: com.course.model
+    mapper-locations:
+    - mapper/*.xml
