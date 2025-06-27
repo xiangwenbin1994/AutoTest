@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.course.model;
 
 import lombok.Data;
@@ -27,4 +28,7 @@ public class AddUserCase {
                 "}"
         );
     }
+=======
+package com.course.model;public class AddUserCase {
+>>>>>>> origin/master
 }
